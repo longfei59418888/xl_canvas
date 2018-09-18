@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/wangxiaolong/Desktop/work/study/npm/xl_canvas/package.json: Unexpected token } in JSON at position 318
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "xl_canvas",
+    "version": "1.0.1",
+    "description": "canvas 平移，缩放，旋转",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "xiaolong",
+    "license": "ISC",
+    "dependencies": {
+      "babel-eslint": "^9.0.0",
+      "eslint-config-airbnb": "^17.1.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

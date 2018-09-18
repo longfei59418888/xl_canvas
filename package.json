@@ -1,0 +1,15 @@
+{
+  "name": "xl_canvas",
+  "version": "1.0.1",
+  "description": "canvas 平移，缩放，旋转",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiaolong",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint-config-airbnb": "^17.1.0"
+  }
+}

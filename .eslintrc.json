@@ -1,0 +1,62 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": ["airbnb"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "globals": {
+        "Babel": true,
+        "isNaN": true,
+        "parseInt": true,
+        "Math": true
+      //  "React": true
+    },
+//    "plugins": [
+//        "react",
+//    ],
+    "rules": {
+//        "prettier/prettier": "error",
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        // 禁止缩进错误
+        "indent": 0,
+        "camelcase": 0,
+        "no-underscore-dangle": 0,
+        "no-restricted-properties": 0,
+        // 关闭不允许使用 no-tabs
+        "no-tabs": "off",
+        "no-console": 1,
+        // 箭头函数直接返回的时候不需要 大括号 {}
+        "arrow-body-style": [2, "as-needed"],
+        // 允许在 .js 和 .jsx 文件中使用  jsx
+       // "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        // jsx > 紧跟着属性
+        //"react/jsx-closing-bracket-location": [1, "after-props"],
+        // 有一些 event 的时候，不需要 role 属性，不需要其他解释
+        //"jsx-a11y/no-static-element-interactions":0,
+        //"jsx-a11y/click-events-have-key-events":0,
+        // 类成员之间空行问题
+        "lines-between-class-members":0
+
+
+    }
+}
